@@ -6,10 +6,10 @@
 
 <script>
   export default {
-    name: 'page',
+    name: 'Page',
     data() {
       return {
-        msg: 'I am page!!!',
+        msg: 'I am Page!!!',
       };
     },
   };
@@ -19,16 +19,5 @@
 <style scoped>
   h1, h2 {
     font-weight: normal;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
   }
 </style>
